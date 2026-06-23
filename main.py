@@ -132,4 +132,4 @@ async def analizar_salarios(
         }
         
     except Exception as e:
-        return {"error": f"Tarjeta Roja Backend: Error al compilar. Detalle: {str(e)}"}
+        return {"error": f"Backend: Error al compilar. Detalle: {str(e)}"}
